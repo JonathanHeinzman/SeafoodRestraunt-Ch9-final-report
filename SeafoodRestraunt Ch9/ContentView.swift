@@ -14,7 +14,7 @@ struct ContentView: View {
                 .font(.system(size: 50))
                 .imageScale(.large)
                 .foregroundStyle(.blue)
-            Text("Welcome to iOS 101!!")
+            Text("Welcome to iOS 101!")
                 .font(.title2)
                 .foregroundColor(.black)
         }
