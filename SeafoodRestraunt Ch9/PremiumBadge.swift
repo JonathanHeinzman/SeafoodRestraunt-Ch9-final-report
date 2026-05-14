@@ -17,7 +17,7 @@ struct PremiumBadge: View {
                     .font(.caption)
             }
             .padding(5)
-            .background(Color.orange.opacity(0.15))
+            .background(Color.orange.opacity(0.25))
             .cornerRadius(6)
     }
 }

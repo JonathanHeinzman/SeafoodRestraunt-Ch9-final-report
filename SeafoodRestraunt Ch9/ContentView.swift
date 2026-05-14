@@ -5,6 +5,11 @@
 //  Created by Jonathan Heinzman on 4/27/26.
 //
 
+
+// git add .
+// git commit -m "your message"
+// git push
+
 import SwiftUI
 
 struct ContentView: View {
