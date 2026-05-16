@@ -83,7 +83,7 @@ struct MenuView: View {
             
             if showMessage{
                 Text("Welcome to The Daily Catch Co!")
-                    .font(.caption)
+                    .font(.title3)
                     .foregroundColor(.blue)
             }
             
@@ -119,7 +119,7 @@ struct MenuView: View {
             Section {
                 VStack {
                     HStack{
-                        Text("Total Items: \(getTotalItems())")
+                        Text("Total Items: \(displayedMenu.count)")
                     }
                     HStack{
                         Text("Highest Price: $ \(getHighestPrice(),specifier:"%.2f")")

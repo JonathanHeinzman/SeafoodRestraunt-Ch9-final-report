@@ -137,6 +137,8 @@ struct ReservationForm: View {
                     .padding(.vertical,4)
                     .textSelection(.enabled)
             }
+            
+            // reservation summary
             Section(header:Text("Summary")) {
                 VStack{
                     HStack{
